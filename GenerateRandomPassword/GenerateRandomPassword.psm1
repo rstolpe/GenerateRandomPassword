@@ -52,10 +52,10 @@ function New-RSRandomPassword {
     [CmdletBinding()]
     param(
         [ValidateRange(6, 30)]
-        [Parameter(Mandatory = $false)]
+        [Parameter(Mandatory = $false, HelpMessage = "Specify how many character the password should contain")]
         [int]$Length = 12,
         [ValidateRange(1, 15)]
-        [Parameter(Mandatory = $false)]
+        [Parameter(Mandatory = $false, HelpMessage = "Specify how many special characters the password should conatin")]
         [int]$SpecialCharacters = 3
     )
 
