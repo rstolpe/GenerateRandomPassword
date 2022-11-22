@@ -109,19 +109,19 @@
         PSData = @{
 
             # Tags applied to this module. These help with module discovery in online galleries.
-            Tags                     = @()
+            Tags                     = @("random-password", "generate-password", "sysadmin-tool", "support-tool", "it-tool", "random-password-generator", "generate-random-password")
 
             # A URL to the license for this module.
-            LicenseUri               = ''
+            LicenseUri               = 'https://github.com/rstolpe/GenerateRandomPassword/blob/main/LICENSE'
 
             # A URL to the main website for this project.
-            ProjectUri               = ''
+            ProjectUri               = 'https://github.com/rstolpe/GenerateRandomPassword'
 
             # A URL to an icon representing this module.
-            IconUri                  = ''
+            # IconUri                  = ''
 
             # ReleaseNotes of this module
-            ReleaseNotes             = ''
+            ReleaseNotes             = 'https://github.com/rstolpe/GenerateRandomPassword/releases/tag/1.0'
 
             # Prerelease string of this module
             # Prerelease = ''
@@ -137,7 +137,7 @@
     } # End of PrivateData hashtable
 
     # HelpInfo URI of this module
-    HelpInfoURI       = ''
+    HelpInfoURI       = 'https://github.com/rstolpe/GenerateRandomPassword/blob/main/README.md'
 
     # Default prefix for commands exported from this module. Override the default prefix using Import-Module -Prefix.
     # DefaultCommandPrefix = ''
