@@ -32,11 +32,11 @@ function New-RSRandomPassword {
         Default is 3, shortest length is 1 and max length is 15.
 
         .EXAMPLE
-        New-RGRandomPassword
+        New-RSRandomPassword
         # Returns a random password that are 12 characters long and contains 1 special character.
 
         .EXAMPLE
-        New-RGRandomPassword -Length 20 -SpecialCharacters 4
+        New-RSRandomPassword -Length 20 -SpecialCharacters 4
         # Returns a random password that are 20 characters long and contains 4 special character.
 
         .NOTES
